@@ -1,0 +1,165 @@
+#title {
+  background-color: #ff4c68;
+}
+
+#title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+nav {
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: 'Ubuntu';
+}
+
+#iPhone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.pink .btn {
+  margin: 5% 3% 5% 0;
+}
+
+.fas {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.top {
+  position: relative;
+  background-color: white;
+}
+
+#features h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+#features p {
+  color: #8F8F8F;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 1% 2%;
+}
+
+@media (max-width: 1028px) {
+  #iPhone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 30px;
+}
+
+.btm-btn .btn {
+  margin: 0 1% 2% 0;
+}
+
+#footer {
+  text-align: center;
+  color: grey;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 30px 10px 30px 0;
+}
